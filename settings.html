@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Settings - Jinnyflix</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="profile-details-page">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/500px-Netflix_2015_logo.svg.png" alt="Logo" class="logo" />
+    </div>
+    <div class="navbar-nav">
+        <link rel="stylesheet" href="settings.css" />
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="#" class="nav-link">TV Shows</a>
+      <a href="#" class="nav-link">Movies</a>
+      <a href="#" class="nav-link">New & Popular</a>
+      <a href="#" class="nav-link">My List</a>
+    </div>
+    <div class="navbar-right">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-bell"></i>
+      <div class="profile-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile" class="profile-icon" id="profileIcon" />
+        <div class="profile-dropdown" id="profileDropdown">
+          <a href="settings.html">Settings</a>
+          <a href="logout.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="profile-details-container">
+    <div class="profile-header">
+      <div class="profile-avatar-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Avatar" />
+      </div>
+      <div class="profile-info">
+        <h1 class="profile-name">Joyal</h1>
+        <p class="profile-email">jinny@gmail.com</p>
+        <div class="membership-info">
+          <span class="membership-badge">Premium</span>
+          <span class="membership-details">4K + HDR</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-sections">
+      <h2>Account Settings</h2>
+      <div class="settings-grid">
+        <div class="setting-items">
+          <div class="setting-header">
+            <h3>Membership & Billing</h3>
+            <button class="btn-change">Change Plan</button>
+          </div>
+          <p class="setting-details">Premium Plan – ₹199/month</p>
+          <p class="setting-details">Next billing date: 05/07/2025</p>
+        </div>
+
+        <div class="setting-items">
+          <div class="setting-header">
+            <h3>Profile & Parental Control</h3>
+            <button class="btn-change">Manage</button>
+          </div>
+          <p class="setting-details">Profile: 1</p>
+          <p class="setting-details">All maturity ratings</p>
+        </div>
+
+        <div class="setting-items">
+          <div class="setting-header">
+            <h3>Privacy & Security</h3>
+            <button class="btn-change">Change Password</button>
+          </div>
+          <p class="setting-details">Password: ********</p>
+          <p class="setting-details">Two-factor authentication enabled</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
